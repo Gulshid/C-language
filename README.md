@@ -1,2 +1,2 @@
 # C-language
-# This is a C language ...J
+# This is a C language ...
