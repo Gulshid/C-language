@@ -11,6 +11,8 @@ main()
     printf("\n");                                    //Escape Sequence(special character )\n used for new line
     printf("The float value of decimal_value is :%f",decimal_value);//if we display a float value we must putt first %f and then float variable
     printf("\n");
+    printf("The float value of decimal_value is :%2.2f",decimal_value);   //after a decimal value
+    printf("\n");
     printf("The char value of character is:%c",character);//if we display a char value we must putt first %c and then char variable
     printf("\n");
     printf("The string value of string_value is:%s",string_value);//if we display a String value we must putt first %s and then String variabl
