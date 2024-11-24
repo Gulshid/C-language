@@ -22,12 +22,37 @@ main(){
     }
 
     printf("\n");
-    for(int =0; o<=10; o++){
-        if(o%2==0){
-            printf("%d\t",o);
+    for(int p=0; p<=10; p++){
+        if(p%2==1){
+            printf("%d\t",p);
         }
     }
 
+    printf("\n");
+    int sum=0;
+    for(int u=1; u<=20; u++){
+        sum=sum+u;
+    }
+    printf("the sum of value is:%d ",sum);
+    printf("\n");
+
+    int sum_2=0;
+
+    for (int t=0; t<=20; t++){
+        if(t%2==0){
+            sum+=t;
+        }
+
+    }
+    printf("The sum of Even number is %d",sum_2);
+    printf("\n");
+     for (int t=0; t<=20; t++){
+        if(t%2==1){
+            sum+=t;
+        }
+
+    }
+    printf("The sum of Even number is %d",sum_2);
     printf("\n");
 
 
