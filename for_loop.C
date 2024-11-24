@@ -15,6 +15,7 @@ main(){
     }
 
     printf("\n");
+    //Even number
     for(int o=0; o<=10; o++){
         if(o%2==0){
             printf("%d\t",o);
@@ -22,6 +23,7 @@ main(){
     }
 
     printf("\n");
+    //Odd number
     for(int p=0; p<=10; p++){
         if(p%2==1){
             printf("%d\t",p);
@@ -29,18 +31,19 @@ main(){
     }
 
     printf("\n");
+    //sum of Even Number
     int sum=0;
     for(int u=1; u<=20; u++){
         sum=sum+u;
     }
     printf("the sum of value is:%d ",sum);
     printf("\n");
-
+    //sum of Odd Number
     int sum_2=0;
 
     for (int t=0; t<=20; t++){
         if(t%2==0){
-            sum+=t;
+            sum_2+=t;
         }
 
     }
@@ -52,7 +55,7 @@ main(){
         }
 
     }
-    printf("The sum of Even number is %d",sum_2);
+    printf("The sum of Odd number is %d",sum_2);
     printf("\n");
 
 
