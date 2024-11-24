@@ -11,5 +11,24 @@ main(){
     //the loop decrement by one till the loop become false
     for(int j=10; j>0; j-- ){
         printf("%d \t ",j);
+
     }
+
+    printf("\n");
+    for(int o=0; o<=10; o++){
+        if(o%2==0){
+            printf("%d\t",o);
+        }
+    }
+
+    printf("\n");
+    for(int =0; o<=10; o++){
+        if(o%2==0){
+            printf("%d\t",o);
+        }
+    }
+
+    printf("\n");
+
+
 }
