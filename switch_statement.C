@@ -15,5 +15,6 @@ main(){
             break;
         default: printf("You neither entered 1,2,3\nthe value you are entered is other than these value... ");
     }
+    printf("\nProgram End...");
 
 }
