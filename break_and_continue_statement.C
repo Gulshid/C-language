@@ -5,6 +5,7 @@ main(){
         if(i==4){
              printf("%d",i);
             continue;
+            break;
            
         }
     }
