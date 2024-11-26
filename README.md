@@ -1,5 +1,5 @@
 # C-language
-# This is a C and and as well as C++  language ...
+# This is a C  and as well as C++  language ...
 
 # The one portion is C Language(Not OOP concept are present)
 
