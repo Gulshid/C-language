@@ -105,9 +105,9 @@ int main() {
     tree.insert(80);
 
     // Perform tree traversals
-    tree.inorder();   // Output: 20 30 40 50 60 70 80
-    tree.preorder();  // Output: 50 30 20 40 70 60 80
-    tree.postorder(); // Output: 20 40 30 60 80 70 50
+    tree.inorder();  
+    tree.preorder();  
+    tree.postorder(); 
 
     return 0;
 }
